@@ -20,6 +20,6 @@ What's Include
 
 This repo uses other open source, including:
 
-1. Twitter Bootstrap 4
-2. jQuery
-3. Montserrat Font Style
+1. Twitter Bootstrap 4 https://getbootstrap.com/
+2. jQuery https://jquery.com/
+3. Montserrat Font Style https://fonts.google.com/specimen/Montserrat
