@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no, maximum-scale=1, minimum-scale=1">
 	<meta name="msapplication-tap-highlight" content="no">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Freelancer - Ardinal Arif Setiawan</title>
+	<title>Ardinal Arif Setiawan</title>
 	<link rel="icon" type="image/png" href="assets/img/favicon/16x16.png" sizes="16x16">
 	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/font/Montserrat.css">
@@ -43,11 +43,11 @@
 			</div>
 		</div>
 	</nav>
-	<header class="linked jumbotron custom-jumbotron bg-hello" id="home" data-anchor="home">
+	<header class="linked jumbotron custom-jumbotron" id="home" data-anchor="home">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row justify-content-end">
-				<div class="col-lg-7 ml-auto text-right">
+				<div class="col-lg-7 ml-auto">
 					<div class="site-heading">
 						<h1 class="text-header">
 							<span>Ardinal</span>
@@ -97,6 +97,9 @@
 					<div class="text-section">
 						<h1 class="text-header">Introduction</h1>
 						<p class="text-content">I am 25 years old, a fresh graduated programmer (2018), from Lembang-West Bandung District. I started my career after graduating from high school 7 years ago, and began my college in 2014 in Information Management Bachelor Degrees. I love the art of design and now I want to focus on developing online systems (web development).</p>
+						<a class="download-link" href="https://drive.google.com/open?id=1pmnidiqklj8H8D6aAJlt6MS9LeExHNRD" target="_BLANK">
+							Download my CV <i class="fas fa-angle-right icon"></i>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -122,7 +125,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="padding-is-5x10 linked">
+	<section class="padding-is-5x10">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-12 col-lg-7">
@@ -138,7 +141,7 @@
 						<figure class="port-item">
 							<img src="assets/img/portfolio/port_1.jpg" class="img-fluid">
 							<figcaption class="caption">
-								<h4 class="caption-header">Sistem Absensi</h4>
+								<h4 class="caption-header">Sistem Promosi Mobil</h4>
 								<a class="caption-btn btn btn-outline-primary btn-rounded" href="" target="">
 									<span>Preview</span>
 									<span class="icon"><i class="fas fa-angle-right"></i></span>
@@ -151,7 +154,7 @@
 						<figure class="port-item">
 							<img src="assets/img/portfolio/port_2.jpg" class="img-fluid">
 							<figcaption class="caption">
-								<h4 class="caption-header">Sistem Promosi Mobil</h4>
+								<h4 class="caption-header">Sistem Absensi</h4>
 								<a class="caption-btn btn btn-outline-primary btn-rounded" href="" target="">
 									<span>Preview</span>
 									<span class="icon"><i class="fas fa-angle-right"></i></span>
@@ -177,7 +180,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="padding-is-5 bg-footer linked" id="findme" data-anchor="findme">
+	<section class="padding-is-5 bg-footer linked top-bordered" id="findme" data-anchor="findme">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-12 col-lg-12">
@@ -247,7 +250,9 @@ $('#nav-bar li a.nav-link').on('click', function() {
 
 	return false;
 });
-
+$('.download-link').hover(function(){
+	$(this).toggleClass('hover');
+});
 $(window).scroll(function() {
 	var windscroll = $(window).scrollTop();
 	if (windscroll >= 3275) {
