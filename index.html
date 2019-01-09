@@ -5,24 +5,26 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no, maximum-scale=1, minimum-scale=1">
 	<meta name="msapplication-tap-highlight" content="no">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Home</title>
+	<title>Home | Ardinal</title>
 	<link rel="icon" type="image/png" href="assets/img/favicon/16x16.png" sizes="16x16">
 	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/font/Montserrat.css">
 	<link rel="stylesheet" type="text/css" href="assets/icon/css/all.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/style/css/main.css">
+	<link rel="stylesheet" type="text/css" href="assets/style/css/main.min.css">
 	<script type="text/javascript" src="assets/jquery/jquery-3.3.1.js"></script>
 	<script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg fixed-top" id="main-nav">
 		<div class="container">
-			<div class="navbar-brand">
-				<div class="nav-icon">
-					<img src="assets/img/favicon/no-border256.png" class="img-fluid">
+			<a class="nav-top" href="#top" data-scroll="top">
+				<div class="navbar-brand">
+					<div class="nav-icon">
+						<img src="assets/img/favicon/no-border256.png" class="img-fluid">
+					</div>
+					<p class="nav-label">Ardinal</p>
 				</div>
-				<p class="nav-label">Ardinal</p>
-			</div>
+			</a>
 			<div class="burger-block">
 				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" 
 					data-target="#nav-bar" aria-controls="nav-bar" aria-expanded="false" aria-label="Navigation">
@@ -34,16 +36,13 @@
 			<div class="navbar-collapse collapse" id="nav-bar">
 				<ul class="navbar-nav ml-auto nav-bar">
 					<li class="nav-item">
-						<a href="#home" class="nav-link active" data-scroll="home">Home</a>
-					</li>
-					<li class="nav-item">
-						<a href="#findme" class="nav-link" data-scroll="findme">Find Me</a>
+						<a href="project.html" class="nav-link">Project <i class="fas fa-arrow-right"></i></a>
 					</li>
 				</ul>
 			</div>
 		</div>
 	</nav>
-	<header class="linked jumbotron custom-jumbotron" id="home" data-anchor="home">
+	<header class="linked jumbotron custom-jumbotron" id="top" data-anchor="top">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row justify-content-end">
@@ -53,192 +52,117 @@
 							<span>Ardinal</span>
 							<span>Arif</span>
 						</h1>
-						<p class="lead">prototype and design digital products.</p>
+						<p class="lead">prototype and design a digital products.</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</header>
-	<section class="padding-is-10">
+	<section class="padding-is-section">
 		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-12 col-lg-4 my-2">
-					<div class="img-wrapper">
-						<div class="img-column portrait">
-							<img src="assets/img/me/me_1.jpg" class="img-fluid">
-						</div>
+			<div class="row justify-content-left">
+				<div class="col-12 col-lg-1">
+					<div class="section-header">
+						<h1 class="heading"><span>Introduction</span></h1>
 					</div>
 				</div>
-				<div class="col-12 col-lg-5">
-					<div class="row">
-						<div class="col-12 my-2">
-							<div class="img-wrapper">
-								<div class="img-column landscape">
-									<img src="assets/img/me/me_2.jpg" class="img-fluid">
-								</div>
-							</div>
-						</div>
-						<div class="col-12 my-2">
-							<div class="img-wrapper">
-								<div class="img-column landscape">
-									<img src="assets/img/me/me_3.jpg" class="img-fluid">
-								</div>
-							</div>
+				<div class="col-12 col-lg-7 mx-auto">
+					<div class="intro-picture">
+						<div class="wrapper">
+							<img src="assets/img/me/me_1.jpg" class="img-fluid" alt="ardinal photos">
 						</div>
 					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="padding-is-5x10 hr-after">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-12 col-lg-7">
-					<div class="text-section">
-						<h1 class="text-header">Introduction</h1>
-						<p class="text-content">I am 25 years old, a fresh graduated programmer (2018), from Lembang-West Bandung District. I started my career after graduating from high school 7 years ago, and began my college in 2014 in Information Management Bachelor Degrees. I love the art of design and now I want to focus on developing online systems (web development).</p>
-						<a class="download-link" href="https://drive.google.com/open?id=1pmnidiqklj8H8D6aAJlt6MS9LeExHNRD" target="_BLANK">
-							Download my CV <i class="fas fa-angle-right icon"></i>
+					<div class="intro-section">
+						<p class="content">
+							I am 25 years old, a fresh graduated programmer (2018), from Lembang - West Bandung. I started my career after graduating from high school in 2011, and began my college in 2014 in Information Management Bachelor Degrees. I love digital design and now I want to focus on designing and developing website system.
+						</p>
+					</div>	
+					<div class="dl-link">
+						<a href="https://drive.google.com/open?id=1xliPcqjjRAev3ykGVMDmouwb8Z4rC9Em" target="_BLANK" data-hover="Download my CV">
+							<span>Download my CV</span>
 						</a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="padding-is-5x10 hr-after">
+	<section class="padding-is-section">
 		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-12 col-lg-7">
-					<div class="text-section">
-						<h1 class="text-header">things i understand</h1>
-						<p class="text-content">I tend to code neatly from the start, and pour my imagination into the design that I make. I design, prototype, test and iterate until product is functionable and user friendly.</p>
-						<div class="text-group">
-							<h3 class="text-lead">Languages I speak:</h3>
-							<p class="text-content">PHP, MySQL, HTML, CSS, Javascript.</p>
-						</div>
-						<div class="text-group">
-							<h3 class="text-lead">Development tools:</h3>
-							<p class="text-content">Sublime Text, Bootstrap, jQuery & Ajax, Codeigniter, XAMPP, Git, Github.</p>
+			<div class="row justify-content-left">
+				<div class="col-12 col-lg-1">
+					<div class="section-header">
+						<h1 class="heading"><span>things i understand</span></h1>
+					</div>
+				</div>
+				<div class="col-12 col-lg-7 mx-auto">
+					<div class="skill-section">
+						<h3 class="legend"><span>Principles</span></h3>
+						<p class="content">
+							I tend to code neatly from the start, and pour my imagination into the design that I make. I design, prototype, test and iterate until product is functionable and user friendly.
+						</p>
+					</div>
+					<div class="skill-section">
+						<h3 class="legend"><span>Languages I speak</span></h3>
+						<p class="content">PHP, MySQL, HTML, CSS, Javascript</p>
+					</div>
+					<div class="skill-section">
+						<h3 class="legend"><span>Development tools</span></h3>
+						<p class="content">Sublime Text, Bootstrap, jQuery & Ajax, XAMPP, Git, Github</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="padding-is-project">
+		<div class="container">
+			<div class="row justify-content-left">
+				<div class="col-12 col-lg-8 mx-auto">
+					<div class="project-section">
+						<div class="project-link">
+							<a href="project.html" data-hover="Download my CV">
+								<span>Recent Project <i class="fas fa-chevron-right"></i></span>
+							</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="padding-is-5x10 linked">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-12 col-lg-7">
-					<div class="row justify-content-center">
-						<div class="col-12 col-lg-12">
-							<div class="text-section">
-								<h1 class="text-header">recent project</h1>
-								<p class="text-content">The following are some of the projects I've worked on, coming from the client who ordered.</p>
-							</div>
-						</div>
-					</div>
-					<div class="row justify-content-center">
-						<div class="col-12 col-lg-6">
-							<figure class="port-item">
-								<img src="assets/img/portfolio/port_1.jpg" class="img-fluid">
-								<figcaption class="caption">
-									<h4 class="caption-header">Sistem Promosi Mobil</h4>
-									<a class="caption-btn btn btn-outline-primary btn-rounded" href="promosi.html">
-										<span>Preview</span>
-										<span class="icon"><i class="fas fa-angle-right"></i></span>
-									</a>
-								</figcaption>
-								<div class="port-overlay"></div>
-							</figure>
-						</div>
-						<div class="col-12 col-lg-6">
-							<figure class="port-item">
-								<img src="assets/img/portfolio/port_2.jpg" class="img-fluid">
-								<figcaption class="caption">
-									<h4 class="caption-header">Sistem Absensi</h4>
-									<a class="caption-btn btn btn-outline-primary btn-rounded" href="absensi.html">
-										<span>Preview</span>
-										<span class="icon"><i class="fas fa-angle-right"></i></span>
-									</a>
-								</figcaption>
-								<div class="port-overlay"></div>
-							</figure>
-						</div>
-					</div>
-					<div class="row justify-content-center">
-						<div class="col-12 col-lg-6">
-							<figure class="port-item">
-								<img src="assets/img/portfolio/port_3.jpg" class="img-fluid">
-								<figcaption class="caption">
-									<h4 class="caption-header">Portal Pariwisata</h4>
-									<a class="caption-btn btn btn-outline-primary btn-rounded" href="portal.html">
-										<span>Preview</span>
-										<span class="icon"><i class="fas fa-angle-right"></i></span>
-									</a>
-								</figcaption>
-								<div class="port-overlay"></div>
-							</figure>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="padding-is-5 bg-footer linked top-bordered" id="findme" data-anchor="findme">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-12 col-lg-12">
-					<div class="footer-social">
-						<div class="row justify-content-center">
-							<div class="col-12 col-lg-6">
-								<h1 class="footer-title">Find me</h1>
-							</div>
-							<div class="col-12 col-lg-6">
-								<ul class="nav footer-nav justify-content-center">
-									<li class="nav-item">
-										<a class="nav-link" target="_BLANK" href="https://www.instagram.com/ardinal311/">Instagram</a>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" target="_BLANK" href="https://www.linkedin.com/in/ardinal-arif-541179175/">LinkedIn</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<footer class="custom-footer bg-footer">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-12 col-lg-4 order-2 order-lg-1">
+	<footer class="padding-is-footer">
+		<div class="container-fluid">
+			<div class="row justify-content-between">
+				<div class="col-12 col-lg-3 order-2 order-lg-1">
 					<div class="footer-section">
-						<p class="footer-quote">"Plan and imagination are a gifts at the same time."</p>
+						<div class="copyright"><p>Handcrafted by Me © 2019</p></div>
 					</div>
 				</div>
-				<div class="col-12 col-lg-4 order-1 order-lg-2">
+				<div class="col-12 col-lg-6 order-1 order-lg-2">
 					<div class="footer-section">
-						<div class="footer-brand">
-							<img src="assets/img/favicon/no-border256.png" class="img-fluid footer-brand">
+						<div class="social">
+							<ul class="social-icon">
+								<li class="icon">
+									<a target="_BLANK" href="https://www.instagram.com/ardinal311/"><i class="fab fa-instagram"></i></a>
+								</li>
+								<li class="icon">
+									<a target="_BLANK" href="https://www.linkedin.com/in/ardinal-arif-541179175/"><i class="fab fa-linkedin"></i></a>
+								</li>
+								<li class="icon">
+									<a target="_BLANK" href="mailto:ardinal.arif.s@gmail.com"><i class="fas fa-envelope"></i></a>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-lg-4 order-3 order-lg-3">
+				<div class="col-12 col-lg-3 order-3 order-lg-2">
 					<div class="footer-section">
-						<div class="footer-textgroup">
-							<p class="footer-copyright">Handcrafted by Me <i class="far fa-copyright"></i> ardinal03</p>
-							<div class="footer-made">
-								<a href="https://getbootstrap.com/">
-									<img src="assets/img/made-with-bootstrap.png" class="img-fluid">
-								</a>
-							</div>
+						<div class="made-by">
+							<a href="https://getbootstrap.com/" class="made-link" target="_BLANK">made with Bootstrap</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</footer>
-	<script type="text/javascript" src="assets/style/js/main.js"></script>
+	<script type="text/javascript" src="assets/style/js/main.min.js"></script>
 </body>
 </html>
